@@ -1,33 +1,37 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
-
 # Documentation project instructions
 
 ## About this project
 
-- This is a documentation site built on [Mintlify](https://mintlify.com)
+- Documentation site for **gAIa** (Lucidminds / Green Unified Scenarios)
+- Built on [Mintlify](https://mintlify.com)
 - Pages are MDX files with YAML frontmatter
 - Configuration lives in `docs.json`
-- Use the Mintlify MCP server, `https://mcp.mintlify.com`, to edit content and settings via MCP
-- Use the Mintlify docs MCP server, `https://www.mintlify.com/docs/mcp`, to query information about using Mintlify via MCP
+- Product site: [gaia.gus.earth](https://gaia.gus.earth)
+- App: [ai.gus.earth](https://ai.gus.earth)
+- Brand assets live under `logo/`, `favicon.svg`, and `images/` (sourced from gaia-webapp / gaia-landing)
+
+For Mintlify product knowledge (components, configuration, writing standards),
+install the Mintlify skill: `npx skills add https://mintlify.com/docs`
 
 ## Terminology
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+- Use **gAIa** (not Gaia, GAIA, or gaia) when referring to the product
+- Use **GUS** or **Green Unified Scenarios** for the simulation / data backend
+- Prefer **mini forest** or **cluster** for named groups of trees
+- Prefer **tree** / **urban forest** over generic "asset" language
+- Prefer **conversation** or **chat** for the AI interface
 
 ## Style preferences
-
-{/* Add any project-specific style rules below */}
 
 - Use active voice and second person ("you")
 - Keep sentences concise — one idea per sentence
 - Use sentence case for headings
 - Bold for UI elements: Click **Settings**
 - Code formatting for file names, commands, paths, and code references
+- Align product copy with [gaia.gus.earth](https://gaia.gus.earth) tone: clear, grounded, nature-forward
 
 ## Content boundaries
 
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+- Document product usage, concepts, and public APIs
+- Do not document internal admin tools, unpublished experiments, or private credentials
+- Prefer linking to live API docs (`api.gus.earth`, `backend.gus.earth/docs`) over duplicating endpoint catalogs
